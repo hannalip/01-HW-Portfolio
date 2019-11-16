@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Contact</title>
 </head>
 <body>
     <nav class="navbar">
@@ -18,22 +19,32 @@
             <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-
+  <section class="contact">
+    
     <div class="container">
-      <form action="action_page.php">
+      <h2>Contact</h2>
 
-    <label for="name">Name</label>
-    <input type="text" id="fname" name="name" placeholder="Your name..">
+      <hr>
+    
+      <form action="action">
 
-    <label for="email">Email</label>
-    <input type="text" id="lname" name="email" placeholder="example@gmail.com">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="John Smith">
 
-    <label for="message">Message</label>
-    <textarea id="message" name="message" style="height:200px"></textarea>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="example@gmail.com">
 
-    <input type="submit" value="Submit">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" style="height:200px"></textarea>
 
-    </form>
-  </div>
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+  </section>
+
+  <footer>
+      Copyright &copy
+  </footer>
 </body>
 </html>
