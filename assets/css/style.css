@@ -93,6 +93,8 @@ footer {
     padding-top: 20px;  
 }
 
+/* Contact */
+
 .contact {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -155,22 +157,33 @@ background: #ffffff;
 color: #777777;
 border: 1px solid #dddddd;
 width: 960px;
+height: 800px;
 padding: 10px;
 margin: auto;
 }
 
 .image33 {
-  width: 100%;
   display: inline;
+  margin: 0px 60px;
+  float: left;
+  height: 200px;
+  width: 200px;
 }
 
-.imageover {
-display: inline;
-position: relative;
-top: 110px;
-left: 0px;
-width: 12.5em;
-background: #4aaaa5;
-text-align: center;
-padding: 10px;
+.image33 img {
+position: static;
+width: 210px;
+height: 170px;
+}
+
+p.imageover {
+  position: absolute;
+  left: 0px;
+  width: 210px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  background: #4aaaa5;
+  color: white;
+  bottom: 80px;
 }
