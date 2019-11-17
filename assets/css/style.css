@@ -37,7 +37,7 @@ body {
   
   ul {
     float: right;
-    margin-right: 21.8rem;
+    margin-right: 22.1rem;
     list-style: none;
   }
   
@@ -79,6 +79,15 @@ h2 {
 
 .image{
   float: left;
+  width: 190px;
+  height: 130px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.paragraph {
+  line-height: 1.5;
+  font-size: 17px
 }
 
 footer {
